@@ -1,10 +1,10 @@
 public class Queue implements QueueInterface {
 
-     QueueNode cabeza;
-     QueueNode cola;
-     int cantidad;
+    private QueueNode cabeza;
+    private QueueNode cola;
+    private int cantidad;
 
-     class QueueNode {
+    private class QueueNode {
         Object object;
         int prioridad;
         QueueNode siguiente;
